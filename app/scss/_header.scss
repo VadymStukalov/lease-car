@@ -1,0 +1,34 @@
+.header {
+  background-color: #151515;
+  &__inner {
+    padding-top: 40px;
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+}
+.menu__list {
+  display: flex;
+  gap: 35px;
+  &-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+}
+
+.header__inner {
+}
+.logo {
+}
+.logo__img {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__list-item {
+}
+.menu__list-link {
+}
