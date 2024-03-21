@@ -7,6 +7,13 @@
     justify-content: space-between;
     align-items: flex-end;
   }
+  &-main {
+    background-color: transparent;
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    right: 0;
+  }
 }
 .menu__list {
   display: flex;

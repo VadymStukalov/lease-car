@@ -1,0 +1,19 @@
+.how-does {
+  padding-bottom: 150px;
+  &__inner {
+    max-width: 594px;
+    margin: 0 auto;
+  }
+  &__text {
+  }
+  &__title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 50px;
+  }
+  &__list {
+    padding: 50px 0 70px !important;
+  }
+  &__item {
+  }
+}
