@@ -25,9 +25,12 @@
     padding-bottom: 70px;
   }
   &__content-item {
-    display: grid;
+    display: none;
     grid-template-columns: repeat(4, 1fr);
     gap: 100px 40px;
+  }
+  &__content-item--active {
+    display: grid;
   }
 }
 

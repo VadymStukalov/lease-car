@@ -1,0 +1,71 @@
+@media (max-width: 1040px) {
+  .video__content {
+    width: 100%;
+  }
+}
+
+@media (max-width: 860px) {
+  .why-lease__list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .important__img {
+    width: 100%;
+  }
+  .important__list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .menu__btn {
+    display: flex;
+  }
+
+  .menu__btn,
+  .logo {
+    position: relative;
+    z-index: 10;
+  }
+  .menu__list {
+    position: absolute;
+    background-color: #151515;
+    flex-direction: column;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    padding-top: 200px !important;
+    align-items: center;
+    transform: translateY(-100%);
+    transition: all 0.5s;
+  }
+  .menu__list--active {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .video__content {
+    height: 400px;
+  }
+  .top__title {
+    font-size: 70px;
+  }
+  .top__link {
+    max-width: 360px;
+    font-size: 28px;
+    padding: 16px;
+  }
+  .swiper-pagination-bullet {
+    width: 50px;
+    height: 2px;
+  }
+  .swiper-pagination-bullet-active {
+    height: 4px;
+  }
+}
